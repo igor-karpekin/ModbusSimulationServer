@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusSimulationServer", "ModbusSimulationServer.csproj", "{0BC91B80-65CC-4633-B4E2-39F036D0BCEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC91B80-65CC-4633-B4E2-39F036D0BCEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC91B80-65CC-4633-B4E2-39F036D0BCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC91B80-65CC-4633-B4E2-39F036D0BCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC91B80-65CC-4633-B4E2-39F036D0BCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FB4244B-305A-4A1F-AF27-2B932613B870}
+	EndGlobalSection
+EndGlobal

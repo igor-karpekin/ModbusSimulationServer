@@ -1,0 +1,17 @@
+{
+  // Modbus Simulation Server Configuration
+  
+  // Path to the log file. Set to null or empty to disable file logging.
+  // You can use relative paths or absolute paths.
+  // Example: "logs/app.log" or "C:/temp/modbus_server.log"
+  "LogFilePath": "logs/ModbusSimulationServer.log",
+  
+  // Path to the CSV file containing simulation data
+  "CsvDataFile": "config/speed_profile1.csv",
+  
+  // Modbus TCP port (default: 502)
+  "ModbusPort": 502,
+  
+  // Update interval in milliseconds (how often to update register values)
+  "UpdateIntervalMs": 1000
+}
