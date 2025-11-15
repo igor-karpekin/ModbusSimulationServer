@@ -97,7 +97,7 @@ namespace ModbusSimulationServer
         public void Log(string message, MessageType messageType = MessageType.Info)
         {
             var stackTrace = new StackTrace();
-            var frame = stackTrace.GetFrame(1);
+            var frame = stackTrace.GetFrame(2);
             var method = frame?.GetMethod();
             var source = method != null ? $"{method.DeclaringType?.Name}.{method.Name}" : "Unknown";
 
